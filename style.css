@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100wh;
+    height: 100vh;
+    justify-content: center;
+    background-image: url(./image/mt09.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(24, 6, 126, 0.767),rgba(7, 4, 4, 0.945)) , url(./image/mt09.png);
+    opacity: 0.9;
+}
+
+
+.container {
+    width: 40%;
+    height: auto;
+    background-color: rgb(19, 9, 44);
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    padding: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    display: inline-block;
+    border: none;
+    background: f1f1f1;
+}
+
+
+ select[name=role], select[name=challenges]{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: f1f1f1;
+ }
+ 
+p {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    font-size: larger;
+}
+
+#i{
+    font-style: italic;
+    font-size: xx-small;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    background-color: rgb(4, 90, 47);
+    border: none;
+    color: antiquewhite;
+}
+button:hover{
+    background-color: blue;
+    transition: 0.7s;
+}
